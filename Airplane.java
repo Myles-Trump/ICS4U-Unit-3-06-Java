@@ -31,5 +31,4 @@ public class Airplane {
     public void setSpeed(final int newSpeed) {
         this.speed = newSpeed;
     }
-
 }
