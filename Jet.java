@@ -15,6 +15,9 @@ public class Jet extends Airplane {
     */
     private static final int MULTIPLIER = 2;
 
+    /**
+    * Calling methods from its superclass (Airplane).
+    */
     public Jet() {
         super();
     }
@@ -24,8 +27,9 @@ public class Jet extends Airplane {
     // setters
     /**
     * The setter for speed.
+    * @param speed speed gets multiplied
     */
-    public void setSpeed(int speed) {
+    public void setSpeed(final int speed) {
         super.setSpeed(speed * MULTIPLIER);
     }
 
